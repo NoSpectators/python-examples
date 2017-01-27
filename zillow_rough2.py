@@ -10,7 +10,7 @@ from pyzillow.pyzillow import ZillowWrapper, GetDeepSearchResults #GetUpdatedPro
 
 
 def getZillowResults(address,zipcode):
-    zillow_data = ZillowWrapper("X1-ZWz19oz2bm36dn_9prl8")
+    zillow_data = ZillowWrapper("your-api-key")
     deep_search_response = zillow_data.get_deep_search_results(address, zipcode)
     result = GetDeepSearchResults(deep_search_response)
     return result
