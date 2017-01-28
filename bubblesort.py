@@ -15,7 +15,7 @@ def BubbleSort(A):
 		for k in range(len(A)-1,i,-1): 
 			if (A[k] < A[k-1]): #keep swapping values from left to right until whole thing is sorted 
 				swap(A, k, k-1)	
-				print A 
+				#print A 
     return A 
 def swap(A, x, y):
     temp = A[x]
